@@ -12,6 +12,15 @@ class ViewScene : public QGraphicsScene
 public:
     explicit ViewScene(QObject *parent = 0);
 
+signals:
+    void mousePressed(QGraphicsSceneMouseEvent *);
+    void mouseMoved(QGraphicsSceneMouseEvent *);
+    void mouseReleased(QGraphicsSceneMouseEvent *);
+
+protected:
+    virtual void mousePressEvent(QGraphicsSceneMouseEvent *);
+    virtual void mouseMoveEvent(QGraphicsSceneMouseEvent *);
+    virtual void mouseReleaseEvent(QGraphicsSceneMouseEvent *);
 };
 
 #endif // VIEWSCENE_H
