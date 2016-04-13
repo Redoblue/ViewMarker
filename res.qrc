@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>res/icons/about.png</file>
+        <file>res/icons/exit.png</file>
+        <file>res/icons/fittowindow.png</file>
+        <file>res/icons/fullscreen.png</file>
+        <file>res/icons/list.png</file>
+        <file>res/icons/marker.png</file>
+        <file>res/icons/nolist.png</file>
+        <file>res/icons/open.png</file>
+        <file>res/icons/zoomin.png</file>
+        <file>res/icons/zoomout.png</file>
+        <file>res/icons/close.png</file>
+    </qresource>
+</RCC>
